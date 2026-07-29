@@ -1,0 +1,12 @@
+const student={
+    name:"Ashish Bajpai",
+    age: 34,
+    branch: "CSE"
+}
+// const name=student.name;
+// const age=student.age;
+// const branch=student.branch;
+const {name:newname,age,branch}=student;
+console.log("name=",newname)
+console.log("age=",age)
+console.log("branch=",branch)
